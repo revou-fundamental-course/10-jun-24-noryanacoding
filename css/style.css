@@ -1,5 +1,18 @@
 /* Global Style */
-body {background-color: rgb(131, 200, 232);}
+body {background-color: #483D8B}
+
+/* Text Color */
+h1 {
+    color: white;
+}
+
+p {
+    color: whitesmoke
+}
+
+h3 {
+    color: #E6E6FA;
+}
 
 /* Content Style */
 
@@ -40,6 +53,11 @@ body {background-color: rgb(131, 200, 232);}
     border-radius: 4px;
 }
 
+.purplethird {
+    background-color: #9932CC;
+    color: white;
+}
+
 .purple{
     background-color: #a881af ;
     color : white
@@ -56,5 +74,6 @@ body {background-color: rgb(131, 200, 232);}
 
 /* Footer */
 footer {
-    background: gray;
+    color: #483D8B;
+    background: rgb(251, 248, 248);
 }
