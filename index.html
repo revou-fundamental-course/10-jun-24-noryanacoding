@@ -14,42 +14,44 @@
         <h1> Temperature Conversion </h1> 
     </header>
 
-/* Main Content */
+<! Main Content !>
 <main>
     <h3> Masukkan suhu derajat Selcius (&deg;C) ke kotak dibawah, lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (&deg;F)</h3>
 
-/* Section Celcius */
-    <section>
+<! Section Celcius !>
+    <section class="celcius-container">
         <header>
             <h3> Celcius (&deg;C):</h3>
         </header> 
-            <textarea></textarea>
-            <section>
-                <button>Konversi</button>
-                <button>Reset</button>
-                <button>Reverse</button>
+            <textarea class="textarea"></textarea>
+            <section class="celcius-container">
+                <button class="buttonarea">Konversi</button>
+                <button class="buttonarea purple">Reset</button>
+                <button class="buttonarea purplesecond">Reverse</button>
             </section>
+    
     </section>
 
-    <section> </section>
 
-/* Section Fahrenheit */
-    <section>
+<! Section Fahrenheit !>
+    <section class="result-container">
+        <section>
         <header>
             <h3>Fahrenheit (&deg;F):</h3>
         </header> 
             <textarea></textarea>
      </section>
 
-/* Section Calculate */
-    <section> 
-        <header>
-            <h3>Cara Kalkulasi:</h3>
-        </header> 
-            <textarea></textarea>
+<! Section Calculate !>
+        <section> 
+             <header>
+                <h3>Cara Kalkulasi:</h3>
+            </header> 
+                <textarea></textarea>
+        </section>
     </section>
 
-/* Section Formula */
+<! Section Formula !>
     <section> 
         <header>
             <h1 class="sub-font"> Cara Konversi dari Celcius (&deg;C) ke Fahrenheit (&deg;F) </h1>
@@ -62,7 +64,7 @@
 
         <p>atau</p>
 
-        <p><span class="subject-info"> S </span><sub> (&deg;F) </sub> </span> = (<span class="subject-info"> S </span><sub>(&deg;C)</sub> x 1.8) + 32 </p>
+        <p><span class="subject-info"> S </span><sub> (&deg;C) </sub> </span> = (<span class="subject-info"> S </span><sub>(&deg;F)</sub> - 32) / 1.8 </p>
 
         </section>
 
@@ -70,5 +72,6 @@
 
     <script src="js/script.js"></script>
 </body>
+
 
 </html>

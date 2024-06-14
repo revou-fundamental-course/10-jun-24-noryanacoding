@@ -15,6 +15,42 @@ body {background-color: rgb(131, 200, 232);}
     font-family: 'Times New Roman';
 }
 
+.celcius-container {
+    text-align:center;
+}
+
+.result-container { 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.textarea {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f5f5f5f5;
+    font-size: 15px;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+  }
+
+.buttonarea {
+    height: 32px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.purple{
+    background-color: #a881af ;
+    color : white
+}
+
+.purplesecond{
+    background-color:#80669d ;
+    color: white;
+}
+
+
 /*Profile*/
 
 
