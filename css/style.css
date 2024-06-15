@@ -74,6 +74,9 @@ h3 {
 
 /* Footer */
 footer {
-    color: #483D8B;
     background: rgb(251, 248, 248);
+}
+
+.footer-text{
+    color: black;
 }
