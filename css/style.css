@@ -23,7 +23,14 @@ body {background-color: #483D8B}
     max-width: 900px;
 }
 
-
+@media screen and (max-width:650px){
+    .home .content-wrapper {
+        padding: 10px;
+    }
+    .content-bg {
+        padding: 20px;
+    }
+}
 
 /* Text Color and Font */
 h1{
@@ -94,7 +101,6 @@ h2, h3 {
 }
 
 
-/*Profile*/
 
 
 /* Footer */
@@ -104,4 +110,41 @@ footer {
 
 .footer-text{
     color: black;
+}
+
+/* FOOTER
+------------------------------------*/
+footer {
+    background: #222;
+    color: #d3d4d6;
+}
+.socials {
+    list-style-type: none;
+    padding: 0;
+}
+.socials li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.socials img {
+    width: 32px;
+}
+.socials img:hover {
+    opacity: 0.5;
+
+
+/* Media Responsive */
+@media screen and (min-width: 860px){
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 859px){
+    footer {
+        text-align: center;
+        padding: 10px;
+    }
+
 }

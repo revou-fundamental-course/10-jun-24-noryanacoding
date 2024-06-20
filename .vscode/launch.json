@@ -1,9 +1,14 @@
 {
-    "version": "0.2.0",
-    "configurations": [
+  "version": "0.2.0",
+  "configurations": [
+    
       {
-        "preLaunchTask": "npm: start",
-      },
-    ]
+          "type": "chrome",
+          "request": "launch",
+          "name": "Launch via Chrome",
+          "url": "http://localhost:4000",
+          "webRoot": "${workspaceFolder}",
+          "preLaunchTask": "npm: dev", 
+      }
+  ]
 }
-  
