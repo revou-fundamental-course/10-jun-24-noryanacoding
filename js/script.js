@@ -1,3 +1,4 @@
+//On Click//
 document.addEventListener('DOMContentLoaded', function() {
     console.log('DOM fully loaded and parsed');
     const celsiusInput = document.getElementById('celsiusInput');
