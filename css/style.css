@@ -134,6 +134,7 @@ footer {
 
 
 /* Media Responsive */
+
 @media screen and (min-width: 860px){
     footer {
         display: flex;
@@ -141,7 +142,7 @@ footer {
         padding: 0 20px;
     }
 }
-@media screen and (max-width: 859px){
+@media screen and (max-width: 860px){
     footer {
         text-align: center;
         padding: 10px;
